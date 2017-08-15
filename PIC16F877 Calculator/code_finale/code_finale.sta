@@ -1,0 +1,71 @@
+
+ROM used: 746 (9%)
+          746 (9%) including unused fragments
+
+          0 Average locations per line
+          1 Average locations per statement
+
+RAM used: 28 (8%) at main() level
+          42 (11%) worst case
+
+Stack used: 5 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  144    91  13  code_finale.c
+   17     0   0  code_finale.h
+  313     0   0  ..\..\..\..\..\Program Files (x86)\PICC\devices\16F877A.h
+  180    63   9  ..\..\..\..\..\Program Files (x86)\PICC\drivers\lcd.c
+  146    40   6  ..\..\..\..\..\Program Files (x86)\PICC\drivers\kbd.c
+ 1360   380  54  ..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+  417   126  18  ..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 2633   700 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   3   1             @delay_ms1
+0      8   1   0             @const67
+ Inline        3   463  4.3  lcd_read_byte
+0     12   2   1   134  2.2  lcd_send_nibble
+0     58   8   3   317  4.3  lcd_send_byte
+0     42   6   2   422  4.7  lcd_init
+ Inline        4   186  5.5  lcd_gotoxy
+0     53   7   1   272  4.1  lcd_putc
+0     16   2   0             @const94
+0      3   0   0     3  0.0  kbd_init
+0    102  14   3  4628 11.1  kbd_getc
+0     37   5   2             @MUL88
+0     31   4   4   355  5.3  disp_num
+0     21   3   3   355  5.3  @DIV88
+0     42   6   2   167  3.2  DispError
+0     16   2   0   167  3.2  @const397
+0     19   3   0   353  5.5  @const398
+0     77  10   2   758  4.8  get_num
+0     35   5   1   212  3.6  get_func
+0    149  20   5  1121  8.5  MAIN
+
+Program metrics:
+    Functions               16
+    Statements              700
+    Comments                989
+    Volume (V)              14940
+    Difficilty (D)          77.6
+    Effort to implement (E) 1158712
+    Time to implement (T)   17 hours, 53 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   54
+    Maintainability (MI)    55
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   742  1302  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

@@ -1,0 +1,9 @@
+>>> Warning 205 "code_finale.c" Line 18(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "code_finale.c" Line 19(1,1): Condition always FALSE
+>>> Warning 208 "code_finale.c" Line 13(1,9): Function not void and does not return a value  disp_num
+>>> Warning 208 "code_finale.c" Line 34(1,10): Function not void and does not return a value  DispError
+>>> Warning 203 "code_finale.c" Line 94(1,1): Condition always TRUE
+>>> Warning 202 "code_finale.c" Line 10(6,9): Variable never used:   c11
+>>> Warning 202 "code_finale.c" Line 10(10,13): Variable never used:   c22
+      Memory usage:   ROM=9%      RAM=8% - 11%
+      0 Errors,  7 Warnings.

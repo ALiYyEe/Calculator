@@ -1,0 +1,24 @@
+[PROJECT]
+Target=code_finale.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[code_finale]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=code_finale
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=code_finale.c
+[Opened Files]
+1=C:\Users\Ali\Desktop\PIC16F877 Calculator Code\code_finale\code_finale.c
+2=

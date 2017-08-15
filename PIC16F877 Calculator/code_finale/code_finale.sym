@@ -1,0 +1,132 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+006     kbd
+008     lcd
+008     PSP_DATA
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020     kbd_getc.kbd_call_count
+021.0   kbd_getc.kbd_down
+022     kbd_getc.last_key
+023     kbd_getc.col
+024-025 strtok.save
+026-029 _Randseed
+02A     key
+02B     num1
+02C     func
+02D     num2
+02E     c11
+02F     c22
+030     error
+031     MAIN.key
+032     MAIN.num1
+033     MAIN.func
+034     MAIN.num2
+035     get_func.chf
+035     get_num.ch
+035     kbd_getc.kchar
+035     MAIN.@SCRATCH1
+036     get_num.num
+036     disp_num.numb
+036     kbd_getc.row
+037     disp_num.UnitDigit
+037     DispError.numb
+037     kbd_getc.@SCRATCH1
+038     disp_num.TenthDigit
+038     lcd_init.i
+038     DispError.@SCRATCH1
+039     @DIV88.P1
+039     @MUL88.P2
+039     lcd_init.@SCRATCH1
+039     disp_num.@SCRATCH1
+03A     @DIV88.P1
+03A     lcd_putc.c
+03A     @MUL88.P1
+03B     lcd_gotoxy.x
+03B     @delay_ms1.P1
+03B     @DIV88.@SCRATCH1
+03C     lcd_gotoxy.y
+03D     lcd_gotoxy.address
+03E     lcd_gotoxy.@SCRATCH1
+03F     lcd_send_byte.address
+040     lcd_send_byte.n
+041     lcd_read_byte.low
+041     lcd_send_byte.@SCRATCH1
+042     lcd_read_byte.high
+042     lcd_send_nibble.n
+043     lcd_read_byte.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+0042  @delay_ms1
+0004  LCD_INIT_STRING
+0064  lcd_read_byte
+0057  lcd_send_nibble
+0063  lcd_send_byte
+009D  lcd_init
+0169  lcd_gotoxy
+0152  lcd_putc
+000C  KEYS
+003F  kbd_init
+00EC  kbd_getc
+00C7  @MUL88
+0236  disp_num
+0221  @DIV88
+0187  DispError
+001C  @const397
+002C  @const398
+01B1  get_num
+01FE  get_func
+0255  MAIN
+0255  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    C:\Users\Ali\Desktop\PIC16F877 Calculator Code\code_finale\
+
+Project Files:
+    code_finale.c
+    code_finale.h
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\16F877A.h
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\lcd.c
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\kbd.c
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    C:\Users\Ali\Desktop\PIC16F877 Calculator Code\code_finale\code_finale.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      code_finale.err
+    Ext Symbols: code_finale.esym
+    INHX8:       code_finale.hex
+    Symbols:     code_finale.sym
+    List:        code_finale.lst
+    Debug/COFF:  code_finale.cof
+    Project:     code_finale.PJT
+    Call Tree:   code_finale.tre
+    Statistics:  code_finale.sta
